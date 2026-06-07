@@ -22,3 +22,15 @@ const items = [1, [2, [3, [4]]]];
 const new_items = lo.flattenDeep(items);
 
 console.log(new_items)
+
+//When someone clone this repo they do not have node_modules folder since we put it in .gitignore
+//If they have package.json
+
+//npm install     will download all dependencies in package.json
+
+
+// Dev dependencies -- packages you only need for local coding, testing phase of the project they are completely excluded
+// from final production ready version of your application.
+
+// npm i <packageName> -D  (or)
+// npm i <packageName> --save-dev
